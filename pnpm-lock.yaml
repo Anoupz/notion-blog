@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@prisma/client':
     specifier: ^4.14.0
@@ -44,6 +48,9 @@ dependencies:
     specifier: ^0.2.1
     version: 0.2.1(next@13.4.0)(react-dom@18.2.0)(react@18.2.0)
   notion-client:
+    specifier: ^6.16.0
+    version: 6.16.0
+  notion-types:
     specifier: ^6.16.0
     version: 6.16.0
   react:
@@ -526,6 +533,7 @@ packages:
 
   /@jridgewell/source-map@0.3.4:
     resolution: {integrity: sha512-KE/SxsDqNs3rrWwFHcRh15ZLVFrI0YoZtgAdIyIq9k5hUNmiWRXXThPomIxHuL20sLdgzbDFyvkUMna14bvtrw==}
+    deprecated: the version has a bug with typescript type resolution
     dev: false
 
   /@jridgewell/sourcemap-codec@1.4.14:
